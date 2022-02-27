@@ -14,7 +14,6 @@ import {
 export default function Home() {
   return (
     <>
-      <Experience />
       <Myservices />
       <Portfolio />
       <Testimonials />
