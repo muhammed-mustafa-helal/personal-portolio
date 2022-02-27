@@ -37,7 +37,7 @@ body {
 /* General Styles */
 
 .container {
-  width: var (--container--width-lg);
+  width: var(--container-width-lg);
   margin: 0 auto;
 }
 
@@ -57,7 +57,7 @@ section {
 }
 
 section > h2,
-section - > h5 {
+section > h5 {
   text-align: center;
   color: var(--color-light);
 }
