@@ -109,6 +109,11 @@ img {
   object-fit: cover;
 }
 
+/* Swiper Slider CSS overriden */
+.swiper-pagination-bullet-active {
+  background: var(--color-primary) !important;
+}
+
 /* Media Queries (medium devices) */
 
 @media screen and (max-width: 1024px) {
