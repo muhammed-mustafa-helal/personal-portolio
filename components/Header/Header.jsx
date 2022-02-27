@@ -17,8 +17,7 @@ const Header = () => {
           <Image
             src={MyPicture}
             alt="Muhammed Mustafa"
-            width={1050}
-            height={700}
+            layout="fill"
           />
         </div>
         <a href="#contact" className={classes.scroll__down}>
