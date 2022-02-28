@@ -53,7 +53,7 @@ const clientReviews = [
 ];
 const Testimonials = () => {
   return (
-    <section id="testimonials">
+    <section id="testimonials" className={classes.testimonials}>
       <h5>Reviews from clients</h5>
       <h2>Testimonials</h2>
 

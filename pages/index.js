@@ -1,4 +1,3 @@
-
 import {
   Aboutme,
   Contact,
@@ -8,14 +7,20 @@ import {
   Myservices,
   Navigation,
   Portfolio,
-  Testimonials
-} from '../components'
+  Testimonials,
+} from "../components";
 
 export default function Home() {
   return (
     <>
+      <Header />
+      <Aboutme />
+      <Experience />
+      <Navigation />
+      <Myservices />
+      <Testimonials />
       <Contact />
       <Footer />
     </>
-  )
+  );
 }
